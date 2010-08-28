@@ -1,3 +1,5 @@
 <h2><%= @ticket.title %></h2>
 <%= simple_format(@ticket.description) %>
 
+<%= link_to "Edit", [:edit, @project, @ticket] %>
+
